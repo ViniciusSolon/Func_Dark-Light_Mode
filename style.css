@@ -1,0 +1,37 @@
+:root {
+  --middle-color: #2e2e2e;
+  --border-color: #666;
+  --font-color: #f1f5f9;
+  --header-color: black;
+  --error-color: #ff0043;
+}
+
+body {
+  background-color: var(--middle-color);
+}
+.navbar1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+.navbar2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  border: 3px solid #2e2e2e;
+}
+
+.navbar-principal-black {
+  background-color: var(--header-color);
+}
+
+.middle {
+  background-color: var(--border-color);
+  padding: 35px;
+  height: 543px;
+}
+
+.footer1 {
+  color: white;
+  background-color: var(--header-color);
+}
